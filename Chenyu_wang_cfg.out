@@ -1,0 +1,9 @@
+================================
+a + b * c : 2 parse trees.
+ (E (E a) (B (P +) (E (E b) (B (P *) (E c)))))
+ (E (E (E a) (B (P +) (E b))) (B (P *) (E c)))
+
+a + b + c : 2 parse trees.
+ (E (E a) (B (P +) (E (E b) (B (P +) (E c)))))
+ (E (E (E a) (B (P +) (E b))) (B (P +) (E c)))
+

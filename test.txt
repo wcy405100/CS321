@@ -1,0 +1,10 @@
+S -> A C | U B | a | S A | A S
+A -> b | A C | U B | a | S A | A S
+B -> b
+C -> S A
+U -> a
+
+a b a b
+a a b b
+a b a b a b
+a a
