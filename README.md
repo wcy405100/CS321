@@ -22,4 +22,5 @@ CKY算法的大意是使用动态规划，去测试所给的表达式，是否�
 
 运行指南：
 打开terminal，移动到文件所在位置，输入：python Chenyu_wang_cky.py cfg1.in
+
 其中cfg1.in可改为其他两个.in 文件
